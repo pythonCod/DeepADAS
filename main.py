@@ -8,7 +8,8 @@ import numpy as nb
 print("-------------")
 print("GPU detected")
 print("-------------")
-tf.config.list_physical_devices('GPU')
+print(tf.config.list_physical_devices('GPU'))
+print("-------------")
 
 
 tensor_0d = tf.constant(5)
